@@ -1,0 +1,23 @@
+{
+    "name": "Analytics",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fe25561d224ed4743af4c60938a59d0b",
+        "GUID:5e0b455853cd340e0813387221dfd501",
+        "GUID:614c328814c3e4cb89d08dcc15048513",
+        "GUID:5540e30183c82e84b954c033c388e06c",
+        "GUID:9d6c7830d9ab746a7a12f144bdeeee7c",
+        "GUID:b231377357186c448b1aaa0325ced398",
+        "GUID:a19b74afa4fd4ec39744e31d2a35aa53",
+        "GUID:c863d869dff4bed4496d3b6209cd8a0a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,8 @@
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.my.tracker:mytracker-sdk:3.0.9" />
+  </androidPackages>
+  <iosPods>
+    <iosPod name="myTrackerSDK" version="3.0.7" bitcodeEnabled="true" minTargetSdk="9.0" />
+  </iosPods>
+</dependencies>

@@ -1,0 +1,17 @@
+{
+    "name": "UserUpgrader",
+    "rootNamespace": "",
+    "references": [
+        "GUID:067d36dd543951741b78dff24a587c84",
+        "GUID:4f3eac3999016a844b8c2822cf16ce5c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

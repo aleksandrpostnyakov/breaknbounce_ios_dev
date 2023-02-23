@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47bf440e3694d2d86120a9e16ab2b9b, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _shieldSkillConfig:
+    Name: Shield of hero
+    StartValue: 30
+    IncrementStep: 5
+    StartCostOfUpgrade: 50
+    CostIncreaseCoefficients:
+    - Level: 5
+      Cost: 95
+    - Level: 10
+      Cost: 145
+    - Level: 15
+      Cost: 195
+    - Level: 20
+      Cost: 245
+    - Level: 30
+      Cost: 295
+    - Level: 40
+      Cost: 345
+    - Level: 50
+      Cost: 395
+    - Level: 60
+      Cost: 445
+    - Level: 70
+      Cost: 495
+    - Level: 80
+      Cost: 545
+    - Level: 90
+      Cost: 595
+    - Level: 100
+      Cost: 645
+  _dotsSkillConfig:
+    Name: Length of pointer
+    StartValue: 15
+    IncrementStep: 1
+    StartCostOfUpgrade: 50
+    CostIncreaseCoefficients:
+    - Level: 5
+      Cost: 95
+    - Level: 10
+      Cost: 145
+    - Level: 15
+      Cost: 195
+    - Level: 20
+      Cost: 245
+    - Level: 30
+      Cost: 295
+    - Level: 40
+      Cost: 345
+    - Level: 50
+      Cost: 395
+    - Level: 60
+      Cost: 445
+    - Level: 70
+      Cost: 495
+    - Level: 80
+      Cost: 545
+    - Level: 90
+      Cost: 595
+    - Level: 100
+      Cost: 645
+  _ballsSkillConfig:
+    Name: Start count of balls
+    StartValue: 1
+    IncrementStep: 1
+    StartCostOfUpgrade: 50
+    CostIncreaseCoefficients:
+    - Level: 5
+      Cost: 95
+    - Level: 10
+      Cost: 145
+    - Level: 15
+      Cost: 195
+    - Level: 20
+      Cost: 245
+    - Level: 30
+      Cost: 295
+    - Level: 40
+      Cost: 345
+    - Level: 50
+      Cost: 395
+    - Level: 60
+      Cost: 445
+    - Level: 70
+      Cost: 495
+    - Level: 80
+      Cost: 545
+    - Level: 90
+      Cost: 595
+    - Level: 100
+      Cost: 645
+  _coinsConfig:
+    StartBalance: 0
+    StartReward: 200
+    RewardIncrement: 160
+    ConsolationPrize: 0.25
+  _lotterySpeed: 120
+  _defaultFieldConfig:
+    DefaultFieldRows: 13
+    DefaultFieldCols: 8
+    FieldGenerationSpeed: 1
+    DotScale: 0.25
+    BetweenDots: 0.25
+    BallStartDelay: 0.05
+    BallSpeedAddiction: 0.05
+    oversize2D: 2
+    oversize3D: 0.69
+    HitScaleCoefficient: 0.8
+    HitScaleTime: 0.03
+    BulletFlyTime: 0.03
+    CannonBanAngle: 4
+    HealFlyTime: 0.05
+    AimOffset: 0.05
+    EnemyTurnDelay: 0.25
+  _hudConfig:
+    KillBallsButtonShowDelay: 0
+    RewardsMultiplier1: 1.5
+    RewardsMultiplier2: 2
+    RewardsMultiplier3: 3
+  _adsDelay: 90
+  _testMode: 0
+  _testModeConfig:
+    StartLevel: 1
+    Shield: 1
+    Dots: 100
+    Balls: 5
+    Coins: 1000

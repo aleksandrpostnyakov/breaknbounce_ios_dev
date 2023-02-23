@@ -1,0 +1,16 @@
+{
+    "name": "MyTrackerEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c863d869dff4bed4496d3b6209cd8a0a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

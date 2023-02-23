@@ -1,0 +1,18 @@
+{
+    "name": "OkGameSDK",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9fb71b2c365641a4ba489421550010be",
+        "GUID:3cd91e1cbee0462d8c67085bcd91d124",
+        "GUID:25c6d34d7eec3484594afd80d1eabedb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

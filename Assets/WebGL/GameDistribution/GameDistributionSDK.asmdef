@@ -1,0 +1,16 @@
+{
+    "name": "GameDistributionSDK",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9fb71b2c365641a4ba489421550010be"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

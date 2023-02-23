@@ -1,0 +1,26 @@
+{
+    "name": "GameLoader",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:25c6d34d7eec3484594afd80d1eabedb",
+        "GUID:356da174e90b4ff49bd295e20aa8fc34",
+        "GUID:931ba841d4e9ba244bb586c315a0fc52",
+        "GUID:3cd91e1cbee0462d8c67085bcd91d124",
+        "GUID:ee8c58186427f2a478892fed4ae6d434",
+        "GUID:a19b74afa4fd4ec39744e31d2a35aa53",
+        "GUID:067d36dd543951741b78dff24a587c84",
+        "GUID:6e2ee267bf01440cb6ac4dc5bf2c4f5f",
+        "GUID:b23ef5bf6a494525b83b85ca5e15dc15",
+        "GUID:fc92f9b83d569104aa360b74b532d882"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

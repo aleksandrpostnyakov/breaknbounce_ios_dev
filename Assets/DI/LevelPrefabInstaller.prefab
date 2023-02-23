@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &430663777591621214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537148682276629584}
+  - component: {fileID: -2944824532564473399}
+  m_Layer: 0
+  m_Name: LevelPrefabInstaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &537148682276629584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430663777591621214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2944824532564473399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430663777591621214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb8234b90cab014ab015985e5aee0b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ballPrefab: {fileID: -1251860415466554810, guid: 07f4c600e7c75c74e9baa589cb2208a1, type: 3}
+  _bulletPrefab: {fileID: 7775671593981422366, guid: 9e1aa4a4d16372d40a02f95a48e5192c, type: 3}
+  _fieldCellPrefab: {fileID: 7842429490828480292, guid: 615084805d404264dba8e18ce2fb76f5, type: 3}
+  _cubeBrickPrefab: {fileID: 1292212275450003571, guid: 7ef3039d445c2c84c8b3f3f8b38a7229, type: 3}
+  _cylinderBrickPrefab: {fileID: -8609913956744731762, guid: 2fc006b51df630548bf4b5eb52f9fb90, type: 3}
+  _prismNEBrickPrefab: {fileID: 4024314672261101080, guid: 8553c43f0bf260944bb0b550d1af6cef, type: 3}
+  _prismNWBrickPrefab: {fileID: 160090620319284130, guid: 581eb2783c04444408c99f7ef51feaee, type: 3}
+  _prismSEBrickPrefab: {fileID: 323826721844515588, guid: 3160d7835a0da9f49ae0aabe3c16c099, type: 3}
+  _prismSWBrickPrefab: {fileID: 1618066105137815993, guid: 02be2ea7e1918594598fc1120b9b2e5a, type: 3}
+  _enemyMinionPrefab: {fileID: -3014456261607498229, guid: a6828ad1535755e499db94968a169c6f, type: 3}
+  _enemyMinionCyclopPrefab: {fileID: 1366501264040934077, guid: ed082034cbe040b4d9f5ebc0a285416c, type: 3}
+  _enemyGhostPrefab: {fileID: 5991027292462413254, guid: adab96f06079df9458b82806c16ca492, type: 3}
+  _enemyShieldPrefab: {fileID: 4348912466922281274, guid: 7357be06a4829324b806884bcea1151e, type: 3}
+  _enemyStonePrefab: {fileID: 3380173032318264287, guid: 71d2cef37ba389749b8c1676212f88d9, type: 3}
+  _enemyClonerPrefab: {fileID: 3683446238655001490, guid: 8f0a39a7e61062f4f9f651b953b66faf, type: 3}
+  _enemyClonerSpecialPrefab: {fileID: 3365074027459204559, guid: e4008a08e9a7f704dbe79d3e3eae9645, type: 3}
+  _enemySpiderPrefab: {fileID: 2646697789791610339, guid: 53ae7e068027bc044b3762a11bfad2b8, type: 3}
+  _enemyRamPrefab: {fileID: 1546617945681922384, guid: 2b3e4499f855e8941932a1b63e1dbc1e, type: 3}
+  _enemyHealerPrefab: {fileID: 8273466049770526722, guid: e310c0f7081c59c42abc5162cf3f42c9, type: 3}
+  _enemyBomberPrefab: {fileID: 2707156698322169031, guid: e03f9a155e9ebe743bdf4626b4db6cd7, type: 3}
+  _bossMinonPrefab: {fileID: 3274675596043871524, guid: ff35add48b50d4f4fad7b557489e6f17, type: 3}
+  _bossRamPrefab: {fileID: 1662394000797581230, guid: c583ba0fd9bda3b49bddf1e4e34167f1, type: 3}
+  _bossGhostPrefab: {fileID: 2285810459251339969, guid: c19e967cdacfdb44eb3878b43c4b9365, type: 3}
+  _bossStonePrefab: {fileID: 7534743242199634456, guid: ed3a7cdf9eab3c54391d6b5963faa4d5, type: 3}
+  _bossShieldPrefab: {fileID: 4835776797109657340, guid: b8cd9ae2d5dfeb64fadeae1e2cd538e0, type: 3}
+  _bossSpiderPrefab: {fileID: 1106080657715753809, guid: f47f77ec015fe714eac08b6c87b8cb33, type: 3}
+  _bossClonerPrefab: {fileID: 2883313451253277735, guid: ffdcb88b5dc660842ab130d37790146f, type: 3}
+  _bossClonerSpecialPrefab: {fileID: 187874997415578605, guid: 7b7076255d769554daf3c6a568981030, type: 3}
+  _bossHealerPrefab: {fileID: 2898392580593611352, guid: d1c69514fa2c1bd4d89fce04fac8f29e, type: 3}
+  _bossBomberPrefab: {fileID: 6319387676877374497, guid: 439daade8240bbf41ae985db8d84c8d6, type: 3}
+  _obstaclePrefab: {fileID: 4525239021301723878, guid: 3213963770b02874b9a34950469f60a6, type: 3}
+  _extraBallPrefab: {fileID: 4113851953766474839, guid: fbcce5de6890f1f49bdc4e5e250945c0, type: 3}
+  _dotPrefab: {fileID: 2036536080224831713, guid: 8b93c4a7c6bd2dd48afab667c57279be, type: 3}
+  _warningIconPrefab: {fileID: 6292449582629622190, guid: 5c9968d763f618243925d0a8591f71f4, type: 3}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1949688728899510867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5600602075826547841}
+  - component: {fileID: 3040529247978092496}
+  m_Layer: 0
+  m_Name: LevelEffectsInstaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5600602075826547841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949688728899510867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3040529247978092496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949688728899510867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1b809a6bc34a7ca3de17b02936b691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletEffectPrefab: {fileID: 5721416161996322391, guid: 81a12b135b8a0ef4199deda469f30f70, type: 3}
+  _explosiveEffectPrefab: {fileID: -3705026146636175869, guid: c4f79041c4063194c9e196b83a1011a0, type: 3}
+  _bossExplosiveEffectPrefab: {fileID: 7178684932037075980, guid: 24e70790ae4b4394781926f64430c961, type: 3}
+  _bomberStartEffectPrefab: {fileID: 1226122372289904347, guid: 20067611bee1c7243afecff22cfdafcf, type: 3}
+  _bomberExplosiveEffectPrefab: {fileID: 384797161818169890, guid: 520b280c6cafb02429731f1eb842433f, type: 3}
+  _healEffectPrefab: {fileID: 4973967143741148895, guid: 9ce98e155e14ba640be18c2975661561, type: 3}
+  _hitStoneEffectPrefab: {fileID: 4799916300595864376, guid: 9e20e0fee47a56e4c9210b1ea30517cf, type: 3}
+  _playerDeadEffectPrefab: {fileID: 1525112240065618777, guid: cce78674930093b4a8f25121875f9118, type: 3}

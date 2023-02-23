@@ -1,0 +1,39 @@
+<dependencies>
+  <packages>
+    <package>com.android.support:appcompat-v7:25.3.1</package>
+    <package>com.android.support:appcompat-v7:28.0.0</package>
+    <package>com.android.support:cardview-v7:25.3.1</package>
+    <package>com.android.support:customtabs:25.3.1</package>
+    <package>com.android.support:support-v4:25.3.1</package>
+    <package>com.applovin.mediation:adcolony-adapter:4.8.0.3</package>
+    <package>com.applovin.mediation:facebook-adapter:[6.12.0.2]</package>
+    <package>com.applovin.mediation:google-adapter:[21.5.0.0]</package>
+    <package>com.applovin.mediation:unityads-adapter:4.5.0.2</package>
+    <package>com.applovin:applovin-sdk:11.7.1</package>
+    <package>com.facebook.android:facebook-applinks:[15.1,16)</package>
+    <package>com.facebook.android:facebook-core:[15.1,16)</package>
+    <package>com.facebook.android:facebook-gamingservices:[15.1,16)</package>
+    <package>com.facebook.android:facebook-login:[15.1,16)</package>
+    <package>com.facebook.android:facebook-share:[15.1,16)</package>
+    <package>com.google.android.gms:play-services-ads-identifier:17.0.0</package>
+    <package>com.google.firebase:firebase-messaging:23.0.0</package>
+    <package>com.my.tracker:mytracker-sdk:3.0.9</package>
+    <package>com.parse.bolts:bolts-android:1.4.0</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.bonanzagames.breaknbounce" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="False" />
+  </settings>
+</dependencies>

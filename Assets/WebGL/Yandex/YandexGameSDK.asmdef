@@ -1,0 +1,21 @@
+{
+    "name": "YandexGameSDK",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9fb71b2c365641a4ba489421550010be",
+        "GUID:3cd91e1cbee0462d8c67085bcd91d124"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "StateMashine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5da8e7bf2d9d4111a9aae19d86b607ec",
+        "GUID:4f3eac3999016a844b8c2822cf16ce5c",
+        "GUID:432a6022a799ced429d4cf7c4e6487a0",
+        "GUID:e83dbb2f4f3a37e4d952f3fa0e64c5a7",
+        "GUID:067d36dd543951741b78dff24a587c84",
+        "GUID:931ba841d4e9ba244bb586c315a0fc52",
+        "GUID:59fe9f733ec5d5344b9037455b820539",
+        "GUID:ee8c58186427f2a478892fed4ae6d434",
+        "GUID:dc43b715c13529248a17bde861e42105"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

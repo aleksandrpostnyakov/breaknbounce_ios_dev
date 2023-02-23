@@ -1,0 +1,2216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303b7ab2a8f148a7a683735faabc2051, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  _levels:
+  - LevelId: 1
+    CountOfWaves: 10
+    StartObstacleHP: 1
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 1
+    "Chan\u0441eOfEnemies": 0.3
+    EnemyTypes: 11000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0
+    DifficultyDecrement: 0.05
+  - LevelId: 2
+    CountOfWaves: 10
+    StartObstacleHP: 2
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 0d000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0
+    DifficultyDecrement: 0.05
+  - LevelId: 3
+    CountOfWaves: 10
+    StartObstacleHP: 3
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 0a000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0
+    DifficultyDecrement: 0.05
+  - LevelId: 4
+    CountOfWaves: 10
+    StartObstacleHP: 4
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 0c000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0
+    DifficultyDecrement: 0.05
+  - LevelId: 5
+    CountOfWaves: 20
+    StartObstacleHP: 5
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 0f000000
+    Boss: 1003
+    MiddleBoss: 1006
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0
+    DifficultyDecrement: 0.05
+  - LevelId: 6
+    CountOfWaves: 10
+    StartObstacleHP: 6
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 10000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0.1
+    DifficultyDecrement: 0.05
+  - LevelId: 7
+    CountOfWaves: 10
+    StartObstacleHP: 7
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 0e000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0.1
+    DifficultyDecrement: 0.05
+  - LevelId: 8
+    CountOfWaves: 10
+    StartObstacleHP: 8
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 12000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0.1
+    DifficultyDecrement: 0.05
+  - LevelId: 9
+    CountOfWaves: 10
+    StartObstacleHP: 9
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 2
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 13000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 8
+    NumberOfCols: 5
+    "StartChan\u0441eOfEnemies": 0.1
+    DifficultyDecrement: 0.05
+  - LevelId: 10
+    CountOfWaves: 20
+    StartObstacleHP: 10
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.4
+    EnemyTypes: 1400000012000000
+    Boss: 1009
+    MiddleBoss: 1007
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 0.5
+      TutorialBossDamage: 0.5
+    Obstacles: []
+    BonusBalls: 1
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 11
+    CountOfWaves: 10
+    StartObstacleHP: 11
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 110000000a000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 12
+    CountOfWaves: 10
+    StartObstacleHP: 12
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0a00000010000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 5}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 13
+    CountOfWaves: 10
+    StartObstacleHP: 13
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0f00000011000000
+    Boss: 1003
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 14
+    CountOfWaves: 10
+    StartObstacleHP: 14
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0a00000013000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles:
+    - {x: 4, y: 2}
+    - {x: 4, y: 3}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 15
+    CountOfWaves: 20
+    StartObstacleHP: 15
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 110000000d000000
+    Boss: 1006
+    MiddleBoss: 1005
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 16
+    CountOfWaves: 10
+    StartObstacleHP: 16
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0d0000000c000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles:
+    - {x: 4, y: 1}
+    - {x: 4, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 17
+    CountOfWaves: 10
+    StartObstacleHP: 17
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0c0000000e000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 18
+    CountOfWaves: 10
+    StartObstacleHP: 18
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 100000000d000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles:
+    - {x: 4, y: 1}
+    - {x: 4, y: 4}
+    - {x: 7, y: 2}
+    - {x: 7, y: 3}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 19
+    CountOfWaves: 10
+    StartObstacleHP: 19
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0c00000014000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 20
+    CountOfWaves: 20
+    StartObstacleHP: 20
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0d0000000a000000
+    Boss: 1005
+    MiddleBoss: 100
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 0.75
+      TutorialBossDamage: 0.75
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 6}
+    - {x: 5, y: 1}
+    - {x: 5, y: 5}
+    - {x: 8, y: 2}
+    - {x: 8, y: 3}
+    - {x: 8, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 21
+    CountOfWaves: 10
+    StartObstacleHP: 21
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0a0000000f000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 22
+    CountOfWaves: 10
+    StartObstacleHP: 22
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0f00000012000000
+    Boss: 1003
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 5, y: 0}
+    - {x: 5, y: 5}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 23
+    CountOfWaves: 10
+    StartObstacleHP: 23
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0e0000000a000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 24
+    CountOfWaves: 10
+    StartObstacleHP: 24
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1100000012000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 25
+    CountOfWaves: 20
+    StartObstacleHP: 25
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0a0000000c000000
+    Boss: 100
+    MiddleBoss: 1001
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 26
+    CountOfWaves: 10
+    StartObstacleHP: 26
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0c00000010000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 5, y: 1}
+    - {x: 5, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 27
+    CountOfWaves: 10
+    StartObstacleHP: 27
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1000000013000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 28
+    CountOfWaves: 10
+    StartObstacleHP: 28
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 120000000c000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 5, y: 1}
+    - {x: 5, y: 4}
+    - {x: 8, y: 2}
+    - {x: 8, y: 3}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 29
+    CountOfWaves: 10
+    StartObstacleHP: 29
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0d00000013000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 30
+    CountOfWaves: 20
+    StartObstacleHP: 30
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0c0000000f000000
+    Boss: 1001
+    MiddleBoss: 1003
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 5, y: 0}
+    - {x: 4, y: 6}
+    - {x: 5, y: 6}
+    - {x: 7, y: 3}
+    - {x: 9, y: 2}
+    - {x: 10, y: 2}
+    - {x: 9, y: 4}
+    - {x: 10, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 31
+    CountOfWaves: 10
+    StartObstacleHP: 31
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0f0000000e000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 32
+    CountOfWaves: 10
+    StartObstacleHP: 32
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0e00000014000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 0}
+    - {x: 6, y: 5}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 33
+    CountOfWaves: 10
+    StartObstacleHP: 33
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 130000000f000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 34
+    CountOfWaves: 10
+    StartObstacleHP: 33
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0a00000014000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 4}
+    - {x: 4, y: 5}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 35
+    CountOfWaves: 20
+    StartObstacleHP: 35
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0f00000010000000
+    Boss: 1003
+    MiddleBoss: 1004
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 36
+    CountOfWaves: 10
+    StartObstacleHP: 36
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1000000012000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 1}
+    - {x: 6, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 37
+    CountOfWaves: 10
+    StartObstacleHP: 37
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0c00000011000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 38
+    CountOfWaves: 10
+    StartObstacleHP: 38
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1400000010000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 1}
+    - {x: 6, y: 4}
+    - {x: 9, y: 2}
+    - {x: 9, y: 3}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 39
+    CountOfWaves: 10
+    StartObstacleHP: 39
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0e00000011000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 40
+    CountOfWaves: 20
+    StartObstacleHP: 40
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 100000000e000000
+    Boss: 1004
+    MiddleBoss: 1002
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 2}
+    - {x: 4, y: 3}
+    - {x: 4, y: 4}
+    - {x: 7, y: 0}
+    - {x: 7, y: 1}
+    - {x: 7, y: 5}
+    - {x: 7, y: 6}
+    - {x: 10, y: 2}
+    - {x: 10, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 41
+    CountOfWaves: 10
+    StartObstacleHP: 41
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0e00000013000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 42
+    CountOfWaves: 10
+    StartObstacleHP: 42
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0f0000000d000000
+    Boss: 1003
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 7, y: 0}
+    - {x: 7, y: 5}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 43
+    CountOfWaves: 10
+    StartObstacleHP: 43
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1100000010000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 44
+    CountOfWaves: 10
+    StartObstacleHP: 44
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 120000000d000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 4}
+    - {x: 4, y: 5}
+    - {x: 7, y: 0}
+    - {x: 7, y: 1}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 45
+    CountOfWaves: 20
+    StartObstacleHP: 45
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0e00000012000000
+    Boss: 1002
+    MiddleBoss: 1007
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 46
+    CountOfWaves: 10
+    StartObstacleHP: 46
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1200000014000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 7, y: 1}
+    - {x: 7, y: 4}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 47
+    CountOfWaves: 10
+    StartObstacleHP: 47
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 100000000a000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 48
+    CountOfWaves: 10
+    StartObstacleHP: 48
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 0d0000000e000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 5, y: 0}
+    - {x: 4, y: 5}
+    - {x: 5, y: 5}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 49
+    CountOfWaves: 10
+    StartObstacleHP: 49
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 130000000a000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 50
+    CountOfWaves: 20
+    StartObstacleHP: 50
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.5
+    EnemyTypes: 1200000013000000
+    Boss: 1007
+    MiddleBoss: 1008
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    - {x: 4, y: 5}
+    - {x: 4, y: 6}
+    - {x: 7, y: 2}
+    - {x: 7, y: 3}
+    - {x: 7, y: 4}
+    - {x: 10, y: 0}
+    - {x: 10, y: 1}
+    - {x: 10, y: 5}
+    - {x: 10, y: 6}
+    BonusBalls: 2
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.2
+    DifficultyDecrement: 0.05
+  - LevelId: 51
+    CountOfWaves: 10
+    StartObstacleHP: 51
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0a00000011000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 52
+    CountOfWaves: 10
+    StartObstacleHP: 52
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0e0000000c000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 8, y: 0}
+    - {x: 8, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 53
+    CountOfWaves: 10
+    StartObstacleHP: 53
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0a00000012000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 54
+    CountOfWaves: 10
+    StartObstacleHP: 54
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 140000000c000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    - {x: 7, y: 4}
+    - {x: 7, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 55
+    CountOfWaves: 20
+    StartObstacleHP: 55
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1300000014000000
+    Boss: 1008
+    MiddleBoss: 1009
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 56
+    CountOfWaves: 10
+    StartObstacleHP: 56
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0c0000000d000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 8, y: 1}
+    - {x: 8, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 57
+    CountOfWaves: 10
+    StartObstacleHP: 57
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 120000000f000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 58
+    CountOfWaves: 10
+    StartObstacleHP: 58
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0c00000013000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 0}
+    - {x: 7, y: 0}
+    - {x: 6, y: 5}
+    - {x: 7, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 59
+    CountOfWaves: 10
+    StartObstacleHP: 59
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1200000011000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 60
+    CountOfWaves: 20
+    StartObstacleHP: 60
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0d00000011000000
+    Boss: 1005
+    MiddleBoss: 1006
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 1}
+    - {x: 4, y: 5}
+    - {x: 7, y: 2}
+    - {x: 7, y: 3}
+    - {x: 7, y: 4}
+    - {x: 10, y: 1}
+    - {x: 10, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 61
+    CountOfWaves: 10
+    StartObstacleHP: 61
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0f0000000a000000
+    Boss: 1003
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 62
+    CountOfWaves: 10
+    StartObstacleHP: 62
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1300000010000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 9, y: 0}
+    - {x: 9, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 63
+    CountOfWaves: 10
+    StartObstacleHP: 63
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0f00000014000000
+    Boss: 1003
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 64
+    CountOfWaves: 10
+    StartObstacleHP: 64
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 130000000d000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 5, y: 0}
+    - {x: 5, y: 1}
+    - {x: 4, y: 4}
+    - {x: 4, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 65
+    CountOfWaves: 20
+    StartObstacleHP: 65
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0a0000000d000000
+    Boss: 100
+    MiddleBoss: 1005
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 66
+    CountOfWaves: 10
+    StartObstacleHP: 66
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 100000000c000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 9, y: 1}
+    - {x: 9, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 67
+    CountOfWaves: 10
+    StartObstacleHP: 67
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 140000000e000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 68
+    CountOfWaves: 10
+    StartObstacleHP: 68
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1000000011000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 2}
+    - {x: 4, y: 3}
+    - {x: 8, y: 0}
+    - {x: 9, y: 0}
+    - {x: 8, y: 5}
+    - {x: 9, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 69
+    CountOfWaves: 10
+    StartObstacleHP: 69
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 140000000a000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 70
+    CountOfWaves: 20
+    StartObstacleHP: 70
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0c0000000a000000
+    Boss: 1001
+    MiddleBoss: 100
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 3}
+    - {x: 5, y: 2}
+    - {x: 5, y: 4}
+    - {x: 8, y: 0}
+    - {x: 8, y: 1}
+    - {x: 8, y: 5}
+    - {x: 8, y: 6}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 71
+    CountOfWaves: 10
+    StartObstacleHP: 71
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0e0000000f000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 72
+    CountOfWaves: 10
+    StartObstacleHP: 72
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 110000000f000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 7, y: 0}
+    - {x: 4, y: 5}
+    - {x: 7, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 73
+    CountOfWaves: 10
+    StartObstacleHP: 73
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0e0000000d000000
+    Boss: 1002
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 74
+    CountOfWaves: 10
+    StartObstacleHP: 74
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1300000011000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    - {x: 5, y: 4}
+    - {x: 5, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 75
+    CountOfWaves: 20
+    StartObstacleHP: 75
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0f0000000c000000
+    Boss: 1003
+    MiddleBoss: 1001
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 76
+    CountOfWaves: 10
+    StartObstacleHP: 76
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1200000010000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 1}
+    - {x: 5, y: 1}
+    - {x: 4, y: 4}
+    - {x: 5, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 77
+    CountOfWaves: 10
+    StartObstacleHP: 77
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0d00000010000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 78
+    CountOfWaves: 10
+    StartObstacleHP: 78
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 120000000a000000
+    Boss: 1007
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 7, y: 0}
+    - {x: 8, y: 0}
+    - {x: 9, y: 0}
+    - {x: 7, y: 5}
+    - {x: 8, y: 5}
+    - {x: 9, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 79
+    CountOfWaves: 10
+    StartObstacleHP: 79
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 140000000d000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 80
+    CountOfWaves: 20
+    StartObstacleHP: 80
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 100000000f000000
+    Boss: 1004
+    MiddleBoss: 1003
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    - {x: 4, y: 5}
+    - {x: 4, y: 6}
+    - {x: 7, y: 3}
+    - {x: 8, y: 2}
+    - {x: 8, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 81
+    CountOfWaves: 10
+    StartObstacleHP: 81
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 130000000e000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 82
+    CountOfWaves: 10
+    StartObstacleHP: 82
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0a0000000e000000
+    Boss: 100
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 5, y: 0}
+    - {x: 8, y: 0}
+    - {x: 5, y: 5}
+    - {x: 8, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 83
+    CountOfWaves: 10
+    StartObstacleHP: 83
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 130000000c000000
+    Boss: 1008
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 84
+    CountOfWaves: 10
+    StartObstacleHP: 84
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1100000013000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 3}
+    - {x: 4, y: 4}
+    - {x: 4, y: 5}
+    - {x: 7, y: 0}
+    - {x: 7, y: 1}
+    - {x: 7, y: 2}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 85
+    CountOfWaves: 20
+    StartObstacleHP: 85
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0e00000010000000
+    Boss: 1002
+    MiddleBoss: 1004
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 86
+    CountOfWaves: 10
+    StartObstacleHP: 86
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1400000012000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 1}
+    - {x: 7, y: 1}
+    - {x: 6, y: 4}
+    - {x: 7, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 87
+    CountOfWaves: 10
+    StartObstacleHP: 87
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0c00000012000000
+    Boss: 1001
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 88
+    CountOfWaves: 10
+    StartObstacleHP: 88
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 140000000f000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 5}
+    - {x: 5, y: 1}
+    - {x: 5, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 89
+    CountOfWaves: 10
+    StartObstacleHP: 89
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0d00000014000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 90
+    CountOfWaves: 20
+    StartObstacleHP: 90
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 120000000e000000
+    Boss: 1007
+    MiddleBoss: 1002
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    - {x: 4, y: 2}
+    - {x: 7, y: 4}
+    - {x: 7, y: 5}
+    - {x: 7, y: 6}
+    - {x: 10, y: 0}
+    - {x: 10, y: 1}
+    - {x: 10, y: 2}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 91
+    CountOfWaves: 10
+    StartObstacleHP: 91
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 110000000c000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 92
+    CountOfWaves: 10
+    StartObstacleHP: 92
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0f00000013000000
+    Boss: 1003
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 0}
+    - {x: 9, y: 0}
+    - {x: 6, y: 5}
+    - {x: 9, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 93
+    CountOfWaves: 10
+    StartObstacleHP: 93
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 110000000e000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 94
+    CountOfWaves: 10
+    StartObstacleHP: 94
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1400000011000000
+    Boss: 1009
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 0}
+    - {x: 4, y: 1}
+    - {x: 4, y: 2}
+    - {x: 7, y: 3}
+    - {x: 7, y: 4}
+    - {x: 7, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 95
+    CountOfWaves: 20
+    StartObstacleHP: 95
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1300000012000000
+    Boss: 1008
+    MiddleBoss: 1007
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 96
+    CountOfWaves: 10
+    StartObstacleHP: 96
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0d0000000f000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 8, y: 1}
+    - {x: 9, y: 1}
+    - {x: 8, y: 4}
+    - {x: 9, y: 4}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 97
+    CountOfWaves: 10
+    StartObstacleHP: 97
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1000000014000000
+    Boss: 1004
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 98
+    CountOfWaves: 10
+    StartObstacleHP: 98
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 0d00000012000000
+    Boss: 1005
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 6, y: 0}
+    - {x: 7, y: 0}
+    - {x: 8, y: 0}
+    - {x: 9, y: 0}
+    - {x: 6, y: 5}
+    - {x: 7, y: 5}
+    - {x: 8, y: 5}
+    - {x: 9, y: 5}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 99
+    CountOfWaves: 10
+    StartObstacleHP: 99
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1100000014000000
+    Boss: 1006
+    MiddleBoss: 0
+    MiddleBossWave: 0
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles: []
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 10
+    NumberOfCols: 6
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05
+  - LevelId: 100
+    CountOfWaves: 20
+    StartObstacleHP: 100
+    IncrementObstacleHP: 1
+    MinCountOfObstacles: 3
+    "Chan\u0441eOfEnemies": 0.6
+    EnemyTypes: 1400000013000000
+    Boss: 1009
+    MiddleBoss: 1008
+    MiddleBossWave: 10
+    TutorialBoss:
+      TutorialBossHP: 1
+      TutorialBossDamage: 1
+    Obstacles:
+    - {x: 4, y: 4}
+    - {x: 4, y: 5}
+    - {x: 4, y: 6}
+    - {x: 7, y: 0}
+    - {x: 7, y: 1}
+    - {x: 7, y: 2}
+    - {x: 10, y: 4}
+    - {x: 10, y: 5}
+    - {x: 10, y: 6}
+    BonusBalls: 3
+    ExtraBonus: 0
+    NumberOfRows: 11
+    NumberOfCols: 7
+    "StartChan\u0441eOfEnemies": 0.3
+    DifficultyDecrement: 0.05

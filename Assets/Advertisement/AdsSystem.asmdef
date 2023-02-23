@@ -1,0 +1,22 @@
+{
+    "name": "AdsSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:25c6d34d7eec3484594afd80d1eabedb",
+        "GUID:4a47c79be84a71a4891ff2a0cddc4a00",
+        "GUID:3dbd03a24af45ab4a8837bba3af78ae4",
+        "GUID:de30d6c3723803b4ca690ae915994d08",
+        "GUID:28850def5355cb247a58879116e4f5e5",
+        "GUID:a4cfc1a18fa3a469b96d885db522f42e",
+        "GUID:dc43b715c13529248a17bde861e42105"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
